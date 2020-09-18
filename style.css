@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover { 
+    text-decoration: underline;
+}
+
+
+/*  HEADER  */
+
+
+header {
+    font-size: 13px;
+    height: 47px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-nav {
+    padding-left: 10px;
+}
+
+.left-nav a {
+    color: #000000DE;
+    padding: 0px 0px 0px 15px;
+}
+
+.right-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    padding: 0px 30px;
+}
+
+.right-nav a {
+    color: #000; 
+    padding: 0px 15px 0px 0px; 
+}
+
+.nav-text:hover {
+    color: #000000DE;
+}
+
+.nav-menu {
+    fill: #636262de;
+}
+
+.nav-menu:hover {
+    fill: #000;
+}
+
+#sign-in {
+    background-color: #4683EA;
+    color: white;
+    border-radius: 2px;
+    font-weight: 700;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+#sign-in:hover {
+    box-shadow: 0px 1px 2px #888888;
+    background-color: rgb(98, 154, 243);
+}
+
+/*  MAIN  */
+
+.logo-container {
+    height: 230px;
+}
+
+.logo {
+    display: flex;
+}
+
+img {
+    padding-top: 110px;
+    margin: 0 auto;
+}
+
+.search-container {
+    display: flex;
+}
+
+form {
+    margin: 0 auto;
+}
+
+input {
+    background-image: url(resources/iconmonstr-magnifier-6-24.png);
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position-x: 16px;
+    background-position-y: 14px;
+    width: 548px;
+    height: 44px;
+    border: 1px solid #DFE1E5;
+    border-radius: 24px;
+    padding-left: 40px;
+    padding-right: 14px;
+    font-size: 16px;
+    color: #696767;
+    outline: none;
+}
+
+input:hover {
+    border-color: #DFE1E5;
+    box-shadow: 0px 0px 6px 2px #DFE1E5;
+    cursor: pointer;
+}
+
+.btn-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 18px;
+}
+
+button {
+    height:34px;
+    width: 136px;
+    background-color: #F2F2F2;
+    border: none;
+    border-radius: 4px;
+    color: #696767;
+    margin: 11px 4px;
+    font-size: 14px;
+    font-weight: 500;
+    outline: none;
+}
+
+button:hover {
+    border: 1px solid rgb(197, 197, 197);
+    color: #000;
+}
+
+/*  FOOTER  */
+
+footer {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     position: absolute;
+     bottom: 0px;
+     height: 40px;
+     width: 100%;
+     background-color: #F2F2F2;
+     border-top: 1px solid gainsboro
+}
+
+footer a {
+    font-size: 14px;
+    color: #5f6368;
+    padding: 0px 0px 0px 27px;
+}
+
+.right-footer a {
+    display: inline flex;
+    flex-direction: row;
+    justify-content: right;
+    padding: 0px 27px 0px 0px;}
+
+
+
+
+
+
